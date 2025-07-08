@@ -1,0 +1,15 @@
+# Core dependencies
+yfinance==0.2.36
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+
+# For optional LSTM model
+torch==2.3.0
+
+# For sending email alerts
+smtplib3==0.1.0  # wrapper package for SMTP (use stdlib if you prefer)
+
+# Optional: Slack alert integration (if used)
+slack_sdk==3.27.1
